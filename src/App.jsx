@@ -4,9 +4,9 @@ import "./App.css";
 function App() {
   return (
     <div className="bg-dark text-white">
-      <h1 className="text-center display-1 py-4">
-        Tu putisma madre, vamos quye no me doy
-      </h1>
+      <p className="text-center display-1 py-4 bg-black fs-1 text">
+        Api de Rick And Morty, Primera etapa
+      </p>
       <CharacterList />
     </div>
   );
