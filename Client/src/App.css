@@ -1,0 +1,10 @@
+.App {
+  /* text-align: center; */
+  width: 100vw;
+  height: 100vh;
+  background-image: URL("./images/gif_fondo3.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: auto;
+}

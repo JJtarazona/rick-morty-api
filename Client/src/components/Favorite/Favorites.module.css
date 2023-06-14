@@ -1,0 +1,13 @@
+.order {
+  padding-top: 80px;
+}
+.wrapperCard:hover {
+  transform: scale(1.05);
+}
+
+.orderAsceDesc {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  border-radius: 50%;
+}

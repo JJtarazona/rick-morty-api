@@ -1,0 +1,65 @@
+.wrapperCard {
+  width: auto;
+  height: auto;
+  color: #4e4e50;
+  background: linear-gradient(90deg, #fdbb2d 0%, #22c1c3 100%);
+  border-radius: 80px 20px 80px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 30px;
+  margin: 20px;
+  -webkit-box-shadow: 16px 20px 40px -37px rgb(255, 255, 255);
+  -moz-box-shadow: 16px 20px 40px -37px rgb(255, 255, 255);
+  box-shadow: 16px 20px 40px -37px rgb(255, 255, 255);
+  transition: transform 0.5s ease-in-out;
+}
+.wrapperCard:hover {
+  transform: scale(1.05);
+}
+
+.btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: white;
+  background-color: rgb(186, 170, 21);
+  border-radius: 50%;
+  align-items: end;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  border: none;
+  z-index: 8888;
+}
+.btn:hover {
+  background-color: #d9163d;
+  color: #ffffff;
+}
+
+.name {
+  position: absolute;
+  bottom: 120px;
+  background: linear-gradient(90deg, #00c9ff 0%, #92fe9d 100%);
+  width: 250px;
+  height: 40px;
+  text-align: center;
+  color: rgb(61, 60, 60);
+  border-radius: 0px 20px 20px 0px;
+  left: 0;
+  border: none;
+  -webkit-box-shadow: 13px 4px 55px 7px rgba(181, 189, 178, 0.76);
+  -moz-box-shadow: 13px 4px 55px 7px rgba(181, 189, 178, 0.76);
+  box-shadow: 13px 4px 55px 7px rgba(181, 189, 178, 0.76);
+}
+
+.imgper {
+  border-radius: 80px 20px 120px 0;
+}
+
+/* TODO --> Pendiente por arreglar esos styles */
+/* .info {
+  display: ;
+} */

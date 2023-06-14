@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.detalles {
+  margin-top: 50px;
+  width: 700px;
+  height: 319px;
+  background: linear-gradient(90deg, #fdbb2d 0%, #22c1c3 100%);
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.image {
+  height: 100%;
+  width: 320px;
+  border-radius: 20px 0 0 20px;
+  object-fit: cover;
+  margin: -20px -20px -20px 0;
+}
+
+.info {
+  width: 320px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.name {
+  margin-top: 0;
+}

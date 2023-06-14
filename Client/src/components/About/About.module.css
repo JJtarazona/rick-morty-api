@@ -1,0 +1,58 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+.aboutName {
+  margin-top: 0px;
+  margin-left: 200px;
+  color: rgb(255, 255, 255);
+  font-size: 2.5rem;
+}
+
+.p {
+  text-align: start;
+  width: 400px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-left: 200px;
+  color: rgb(255, 255, 255);
+  text-align: justify;
+}
+
+.imgProfile {
+  margin-left: 200px;
+  margin-top: -70px;
+  width: 30%;
+  height: 30%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.imgProfile:hover {
+  transform: scale(1.05);
+}
+
+.icon {
+  display: flex;
+  justify-content: space-between;
+  color: aliceblue;
+  width: 100px;
+  margin-left: 200px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.iconig {
+  color: rgb(250, 250, 250);
+  cursor: pointer;
+}
+.iconig:hover {
+  color: aquamarine;
+}
+
+.iconlk {
+  color: rgb(250, 250, 250);
+  cursor: pointer;
+}
+.iconlk:hover {
+  color: aquamarine;
+}
